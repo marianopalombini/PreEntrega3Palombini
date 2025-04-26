@@ -1,0 +1,74 @@
+/* main inicio */
+
+.main-comida {
+    background-image: url(../img/Comida/img1-comida-sec1.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid $colorblanco;
+}
+
+.sombra-titulo{
+    text-shadow: 4px 0px 4px #1d1d1d;
+}
+
+.main-comida-box1 {
+    background-image: linear-gradient(to bottom, #000000, #251c19, #3b3425, #43533b, #397367);
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid $colorblanco;
+
+    p {
+        color: $colorblanco;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        padding-top: 10px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        font-family: $fuenteprincipal;
+        padding: 0px;
+        color: $colorblanco;
+        @extend .sombra-titulo;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-comida;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: $fuentesecundaria;
+        font-weight: 500;
+        transition: all 400ms;
+    }
+
+    
+    a:hover{
+        padding: 8px 13px;
+        font-size: 16px;
+    }
+}
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-comida {
+        justify-content: end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/* main fin */
