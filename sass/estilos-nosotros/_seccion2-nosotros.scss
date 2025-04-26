@@ -1,0 +1,102 @@
+/* section-2 inicio */
+
+.sec-2-nosotros {
+    border-top: 2px solid #fff;
+    background-image: linear-gradient(to bottom, #ffc53a, #f9cc58, #f4d372, #f0d98b, #eddea4);
+
+    h2 {
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+        padding: 25px 0px 50px 0px;
+        font-family: $fuenteprincipal;
+        @extend .shadow-titulo;
+        transition: all 300ms;
+    }    
+
+    h2:hover{
+        transform: scale(1.1);
+        cursor: default;
+    }
+}
+
+
+.box-equipo {
+    text-align: center;
+    height: auto;
+
+    h3 {
+        padding-top: 10px;
+        font-family: $fuenteprincipal;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+        font-family: $fuenteprincipal;
+    }
+}
+
+.box-border-nosotros{
+    border: 3px solid $colorblanco;
+    border-radius: 20px;
+}
+
+.sec-2-nosotros-img1 {
+    background-image: url(../img/Nosotros/img3-nosotros-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+.sec-2-nosotros-img2 {
+    background-image: url(../img/Nosotros/img4-nosotros-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+.sec-2-nosotros-img3 {
+    background-image: url(../img/Nosotros/img5-nosotros-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+.sec-2-nosotros-img4 {
+    background-image: url(../img/Nosotros/img6-nosotros-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+.sec-2-nosotros-img5 {
+    background-image: url(../img/Nosotros/img7-nosotros-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+.sec-2-nosotros-img6 {
+    background-image: url(../img/Nosotros/img8-nosotros-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    @extend .box-border-nosotros;
+    height: 350px;
+}
+
+/*inicio mediaquery*/
+
+@media (min-width: 428px) and (max-width: 575px){
+    .equipo-img {
+        height: 500px;
+    }
+}
+
+/*fin mediaquery*/
+
+/* section-2 fin */

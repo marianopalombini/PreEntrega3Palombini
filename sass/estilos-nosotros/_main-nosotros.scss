@@ -1,0 +1,71 @@
+/*inicio main*/
+
+.main-nosotros {
+    background-image: url(../img/Nosotros/img1-nosotros-sec1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid $colorblanco;
+}
+
+.main-nosotros-box1 {
+    width: 280px;
+    background-image: linear-gradient(to bottom, #000000, #402924, #705533, #858f4b, #6fd08c);
+    border: 2px solid $colorblanco;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        color: $colorblanco;
+        font-family: $fuenteprincipal;
+        padding: 0px;
+    }
+
+    p {
+        font-size: 14px;
+        color: $colorblanco;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        padding-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-nosotros;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: $fuentesecundaria;
+        font-weight: 500;
+        transition: all 400ms;
+    }
+
+    a:hover{
+        padding: 8px 13px;
+        font-size: 16px;
+    }
+
+}
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-nosotros {
+        justify-content: flex-end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/*fin main*/
