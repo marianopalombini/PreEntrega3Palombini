@@ -1,0 +1,70 @@
+/*seccion-1 inicio*/
+
+.sec-1-mentalidad {
+    border-top: 2px solid $colorblanco;
+    background-image: linear-gradient(to bottom, #cf5c36, #d87944, #df9558, #e7af6f, #efc88b);
+    text-align: center;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+        font-family: $fuenteprincipal;
+        font-size: 40px;
+        padding: 25px 0px 60px 0px;
+        font-weight: 500;
+        color: $colornegro;
+        @extend .shadow-titulo;
+        transition: all 300ms;
+    }
+    
+    h2:hover{
+        transform: scale(1.1);
+        cursor: default;
+    }
+}
+
+.fila-1-mentalidad {
+    max-width: 750px;
+}
+
+.img-1-mentalidad {
+    background-image: url(../img/Mentalidad/img1-mentalidad-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid $colorblanco;
+    border-radius: 20px;
+    height: 300px;
+}
+
+.box-2-mentalidad p {
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid $colorblanco;
+    color: $colornegro;
+}
+
+/*inicio mediaquery*/
+
+@media (min-width:576px) {
+    .box-2-mentalidad {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (min-width:792px) {
+    .box-2-mentalidad p {
+        font-size: 18px;
+    }
+}
+
+/*fin mediaquery*/
+
+
+/*seccion-1 fin*/

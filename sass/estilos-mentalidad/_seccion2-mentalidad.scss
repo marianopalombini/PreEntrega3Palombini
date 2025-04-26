@@ -1,0 +1,99 @@
+/*seccion-2 inicio*/
+
+.sec-2-mentalidad {
+    background-image: linear-gradient(to bottom, #efc88b, #f0cc90, #f0cf95, #f1d39a, #f2d69f);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid $colorblanco;
+
+    h2 {
+        font-family: $fuenteprincipal;
+        font-size: 40px;
+        text-align: center;
+        padding: 25px 0px 35px 0px;
+        @extend .shadow-titulo;
+        transition: all 300ms;
+    }
+
+    h2:hover{
+        transform: scale(1.1);
+        cursor: default;
+    }
+}
+
+.fila-2-mentalidad {
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+
+    p {
+        text-align: center;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        border: 2px solid $colorblanco;
+        border-radius: 20px;
+        padding: 15px;
+        color: $colornegro;
+    }
+}
+
+.img-2-mentalidad {
+    background-image: url(../img/Mentalidad/img2-mentalidad-sec2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 15px 0px 65px 0px;
+    border: 3px solid $colorblanco;
+    border-radius: 10px;
+}
+
+/*inicio mediaquery*/
+
+@media(min-width:290px) {
+    .img-2-mentalidad {
+        height: 600px;
+    }
+}
+
+@media (min-width:576px) {
+    .img-2-mentalidad {
+        height: 500px;
+        width: 330px;
+    }
+
+    .box-3-mentalidad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .box-4-mentalidad {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    .fila-2-mentalidad p {
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+}
+
+@media (min-width:694px){
+    .fila-2-mentalidad p {
+        width: 420px;
+    }
+}
+
+@media (min-width:800px){
+    .fila-2-mentalidad p {
+        font-size: 20px;
+    }
+}
+
+/*fin mediaquery*/
+
+/*seccion-2 fin*/

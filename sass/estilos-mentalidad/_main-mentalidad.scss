@@ -1,0 +1,71 @@
+/*inicio main*/
+
+.main-mentalidad {
+    background-image: url(../img/Mentalidad/img1-mentalidad-sec1.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-top: 1px solid $colorblanco;
+}
+
+.main-mentalidad-box1 {
+    width: 280px;
+    background-image: linear-gradient(to bottom, #000000, #361a1f, #692b2e, #9d4037, #cf5c36);
+    border: 2px solid $colorblanco;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+    h2 {
+        font-size: 30px;
+        font-weight: 500;
+        color: $colorblanco;
+        font-family: $fuenteprincipal;
+        padding: 0px;
+    }
+
+    p {
+        font-size: 14px;
+        color: $colorblanco;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        padding-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-mentalidad;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: $fuentesecundaria;
+        font-weight: 500;
+        transition: all 400ms;
+    }
+
+    a:hover{
+        padding: 8px 13px;
+        font-size: 16px;
+    }
+
+}
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-mentalidad {
+        justify-content: flex-end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/*fin main*/
