@@ -1,0 +1,75 @@
+/* main inicio */
+
+.main-inicio {
+    background-image: url(../img/Inicio/vintage-old-rustic-cutlery-dark.jpg);
+    background-size: cover;
+    height: 400px;
+    border-top: 1px solid $colorblanco;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+
+.shadow-titulo{
+    text-shadow: 3px 2px 1px #5a5959;
+}
+
+.main-inicio-box1 {
+    background-image: linear-gradient(to bottom, #000000, #2d262c, #4e4a5b, #63748f, #6ea4bf);
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid $colorblanco;
+
+    h1 {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 500;
+        color: $colorblanco;
+        font-family: $fuenteprincipal;
+    }
+
+    p {
+        font-size: 14px;
+        color: $colornegro;
+        margin: 0px;
+        padding-bottom: 10px;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-primario-inicio;
+        background-color: $colornegro;
+        font-size: 15px;
+        font-weight: bold;
+        border: 2px solid $colorblanco;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: $fuentesecundaria;
+        font-weight: 500;
+        transition: all 400ms;
+    }
+
+    a:hover{
+        padding: 8px 13px;
+        font-size: 16px;
+    }
+}
+
+/* inicio mediaquery */
+
+@media (min-width:420px) {
+    .main-inicio {
+        justify-content: end;
+        padding-right: 25px;
+    }
+}
+
+/* fin mediaquery */
+
+/* main fin */

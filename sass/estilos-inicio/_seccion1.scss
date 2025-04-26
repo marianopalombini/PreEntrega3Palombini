@@ -1,0 +1,86 @@
+/* section-1 inicio */
+
+.sec-1-inicio {
+    background-image: linear-gradient(to bottom, #6ea4bf, #7fb7ca, #93cad5, #a9dddf, #c2efeb);
+    border-top: 2px solid $colorblanco;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+
+    h2 {
+        color: $colornegro;
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+        padding: 25px 0px 50px 0px;
+        font-family: $fuenteprincipal;
+        @extend .shadow-titulo;
+        transition: all 300ms;
+    }
+
+    h2:hover{
+        transform: scale(1.1);
+        cursor: default;
+    }
+
+    p {
+        color: $colorblanco;
+        text-align: center;
+        margin-top: 40px;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        padding: 10px;
+        color: $colornegro;
+    }
+}
+
+.sec-1-inicio-div1 {
+    max-width: 900px;
+}
+
+.fila-1-sec1-inicio{
+    display: flex;
+}
+
+.img1-sec1-inicio {
+    background-image: url(../img/Inicio/img1-inicio-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 2px solid $colorblanco;
+    border-radius: 20px;
+}
+
+.img2-sec1-inicio {
+    background-image: url(../img/Inicio/img2-inicio-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 2px solid $colorblanco;
+    border-radius: 20px;
+}
+
+/* inicio mediaquery */
+
+@media (min-width:320px) and (max-width:576px){
+    .img1-sec1-inicio{
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width:870px) {
+
+    .img1-sec1-inicio,
+    .img2-sec1-inicio{
+        height: 380px;
+    }
+
+    .sec-1-inicio p {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}
+
+/* fin mediquery */
+
+/* section-1 fin */
