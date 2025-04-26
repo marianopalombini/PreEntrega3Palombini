@@ -1,0 +1,19 @@
+.section-1-contacto{
+    background-image: linear-gradient(to bottom, #e8dab2, #b0cdaa, #7fbcb2, #67a5b8, #7389ae);
+    padding: 45px 15px;
+    border-top: 2px solid $colorblanco;
+    display: flex;
+    justify-content: center;
+}
+
+.fila-1-section1{
+    max-width: 800px;
+}
+
+.box1-sec1-contacto p{
+    text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
+    font-size: 18px;
+    padding-bottom: 35px;
+}

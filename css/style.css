@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=ZCOOL+XiaoWei&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=ZCOOL+XiaoWei&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=ZCOOL+XiaoWei&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&family=ZCOOL+XiaoWei&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +90,7 @@ header {
   padding-left: 10px;
 }
 
-.shadow-titulo, .sec-5-mentalidad h2, .sec-4-mentalidad h2, .sec-3-mentalidad h2, .sec-2-mentalidad h2, .sec-1-mentalidad h2, .sec-2-nosotros h2, .sec-1-nosotros h2, .sec-3-comida h2, .titulosec2-comida, .sec-1-comida h2, .sec-3-inicio h2, .sec-2-inicio h2, .sec-1-inicio h2 {
+.shadow-titulo, .titulosec2-contacto, .sec-5-mentalidad h2, .sec-4-mentalidad h2, .sec-3-mentalidad h2, .sec-2-mentalidad h2, .sec-1-mentalidad h2, .sec-2-nosotros h2, .sec-1-nosotros h2, .sec-3-comida h2, .titulosec2-comida, .sec-1-comida h2, .sec-3-inicio h2, .sec-2-inicio h2, .sec-1-inicio h2 {
   text-shadow: 3px 2px 1px #5a5959;
 }
 
@@ -2038,6 +2039,376 @@ footer {
 
 .footer-box3 a:hover {
   color: #fff;
+}
+
+.fila-2-footer p {
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding: 20px 0px;
+  border-top: 1px solid #000;
+  text-align: center;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+}
+
+/* inicio mediaquery */
+@media (min-width: 576px) {
+  .footer-box1 {
+    border-bottom: none;
+    border-right: 1px solid #000;
+  }
+  .footer-box2 {
+    border-bottom: none;
+    border-right: 1px solid #000;
+  }
+}
+/* fin mediaquery */
+/* footer fin */
+/* up inicio */
+#up-nosotros {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 0px 7px;
+  font-size: 25px;
+  transition: 500ms;
+}
+
+#up-nosotros:hover {
+  padding: 2px 9px;
+}
+
+/* up fin */
+/*PAGINA CONTACTO*/
+/* Inicio Variables*/
+/*Colores*/
+/* Fonts */
+/* Fin Variables*/
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header inicio */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  font-size: 18px;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.navbar-nav a {
+  color: #fff !important;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  transition: all 500ms;
+}
+
+.navbar-contacto a:hover {
+  color: #CC2936 !important;
+  transform: scale(1.4);
+}
+
+/* mediaquery inicio */
+@media (max-width: 576px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar-collapse ul {
+    text-align: center;
+  }
+}
+@media (min-width: 576px) {
+  .navbar {
+    width: 800px;
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse ul {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse li {
+    margin: 10px;
+  }
+  .navbar-collapse a {
+    padding: 10px;
+  }
+}
+/* fin mediaqury */
+/* header fin */
+/*main inicio*/
+.main-contacto {
+  background-image: linear-gradient(to bottom, #cc2936, #d4653f, #da9059, #dfb781, #e8dab2);
+  border-top: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.fila1-main-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  padding-left: 10px;
+}
+
+.box1-contacto {
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box1-contacto h3 {
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+.box1-contacto p {
+  text-align: center;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.img-1-contacto {
+  background-image: url(../../img/Contacto/img1-contacto-sec1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  border: 3px solid #000;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+/*inicio mediaquery*/
+@media (min-width: 320px) and (max-width: 576px) {
+  .box1-contacto {
+    width: 95%;
+  }
+  .fila1-main-contacto {
+    padding: 0px;
+  }
+}
+@media (min-width: 576px) {
+  .img-1-contacto {
+    margin: 30px 0px 40px 0px;
+  }
+}
+/*fin mediaquery*/
+/*main fin*/
+.section-1-contacto {
+  background-image: linear-gradient(to bottom, #e8dab2, #b0cdaa, #7fbcb2, #67a5b8, #7389ae);
+  padding: 45px 15px;
+  border-top: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.fila-1-section1 {
+  max-width: 800px;
+}
+
+.box1-sec1-contacto p {
+  text-align: center;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding-bottom: 35px;
+}
+
+/*section-2 inicio*/
+.section-2-contacto {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #7389ae, #6780a5, #5a789b, #4e6f92, #416788);
+  border-top: 2px solid #fff;
+}
+
+.box1-sec2-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #7389ae, #6780a5, #5a789b, #4e6f92, #416788);
+  max-width: 600px;
+  padding: 0px 10px;
+}
+
+.titulosec2-contacto {
+  padding: 20px 0;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  text-align: center;
+  transition: all 300ms;
+}
+
+.titulosec2-contacto:hover {
+  transform: scale(1.1);
+  cursor: default;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 50px 0 10px 0;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #7389ae, #6780a5, #5a789b, #4e6f92, #416788);
+}
+.form label {
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 500;
+}
+
+[type=text], [type=email], [type=submit], textarea {
+  padding: 10px;
+  border: 1px solid black;
+  color: white;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom, #7389ae, #6780a5, #5a789b, #4e6f92, #416788);
+  outline: none;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+}
+
+[type=submit] {
+  margin-top: 10px;
+}
+
+.form label:hover {
+  color: black;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px gray, 3px 3px 0px gray, 4px 4px 0px gray;
+}
+
+input::placeholder {
+  color: white;
+}
+
+textarea::placeholder {
+  color: white;
+}
+
+.form input:focus {
+  background-color: #416788;
+  border: 2px solid white;
+}
+
+textarea:focus {
+  background-color: #416788;
+  border: 2px solid white;
+}
+
+.box1-sec2-contacto a {
+  padding: 10px;
+  border: 1px solid black;
+  color: white;
+  border-radius: 7px;
+  background-image: linear-gradient(to bottom, #7389ae, #6780a5, #5a789b, #4e6f92, #416788);
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-family: "Winky Sans", sans-serif;
+}
+
+.box1-sec2-contacto a:active {
+  background-color: #7389AE;
+  border: 2px solid white;
+  color: black;
+}
+
+/*section-2 fin*/
+/* footer inicio */
+.footer-contacto {
+  border-top: 2px solid #fff;
+  padding: 15px 25px 0px 25px;
+  background-color: #416788 !important;
+}
+
+.footer-box1 {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+}
+.footer-box1 h3 {
+  font-weight: bold;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.footer-box2 {
+  text-align: center;
+  font-family: "Winky Sans", sans-serif;
+  font-weight: 300;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
+.footer-box2 h3 {
+  font-weight: bold;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+}
+
+.redes {
+  font-size: 35px;
+  margin-top: 30px;
+}
+.redes a {
+  color: #000;
+  margin: 0px 2px;
+  transition: all 500ms;
+}
+
+.redes a:hover {
+  color: #fff;
+  font-size: 37px;
+}
+
+.footer-box3 {
+  text-align: center;
+  padding: 25px 0px;
+}
+.footer-box3 ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-box3 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "ZCOOL XiaoWei", sans-serif;
+  transition: all 500ms;
+}
+
+.footer-box3 a:hover {
+  color: #fff;
+  font-size: 28px;
 }
 
 .fila-2-footer p {

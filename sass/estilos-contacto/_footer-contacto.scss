@@ -1,0 +1,121 @@
+/* footer inicio */
+
+.footer-contacto {
+    border-top: 2px solid $colorblanco;
+    padding: 15px 25px 0px 25px;
+    background-color: $color-cuatro-contacto !important;
+}
+
+.footer-box1 {
+    text-align: center;
+    border-bottom: 1px solid $colornegro;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
+
+    h3 {
+        font-weight: bold;
+        font-family: $fuenteprincipal;
+    }
+}
+
+.footer-box2 {
+    text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $colornegro;
+
+    h3 {
+        font-weight: bold;
+        font-family: $fuenteprincipal;
+    }
+}
+
+.redes {
+    font-size: 35px;
+    margin-top: 30px;
+
+    a{
+        color: $colornegro;
+        margin: 0px 2px;
+        transition: all 500ms;
+    }
+}
+
+.redes a:hover{
+    color: $colorblanco;
+    font-size: 37px;
+}
+
+.footer-box3 {
+    text-align: center;
+    padding: 25px 0px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $colornegro;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: $fuenteprincipal;
+        transition: all 500ms;
+    }
+}
+
+.footer-box3 a:hover {
+    color: $colorblanco;
+    font-size: 28px;
+}
+
+.fila-2-footer p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-top: 1px solid $colornegro;
+    text-align: center;
+    font-family: $fuentesecundaria;
+    font-weight: $pesofuentesecundaria;
+}
+
+/* inicio mediaquery */
+
+@media (min-width:576px) {
+    .footer-box1 {
+        border-bottom: none;
+        border-right: 1px solid $colornegro;
+    }
+
+    .footer-box2 {
+        border-bottom: none;
+        border-right: 1px solid $colornegro;
+    }
+}
+
+/* fin mediaquery */
+
+/* footer fin */
+
+
+/* up inicio */
+
+#up-nosotros {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: $colorblanco;
+    border-radius: 50%;
+    padding: 0px 7px;
+    font-size: 25px;
+    transition: 500ms;
+}
+
+#up-nosotros:hover{
+    padding: 2px 9px;
+}
+
+/* up fin */

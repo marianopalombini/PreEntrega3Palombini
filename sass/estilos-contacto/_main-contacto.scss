@@ -1,0 +1,73 @@
+/*main inicio*/
+
+.main-contacto {
+    background-image: linear-gradient(to bottom, #cc2936, #d4653f, #da9059, #dfb781, #e8dab2);
+    border-top: 2px solid $colorblanco;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.fila1-main-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    padding-left: 10px;
+}
+
+
+.box1-contacto {
+    text-align: center;
+    border: 2px solid $colorblanco;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    h3 {
+        font-family: $fuenteprincipal;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    p {
+        text-align: center;
+        font-family: $fuentesecundaria;
+        font-weight: $pesofuentesecundaria;
+        color: $colorblanco;
+    }
+}
+
+.img-1-contacto {
+    background-image: url(../../img/Contacto/img1-contacto-sec1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border: 3px solid $colornegro;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+/*inicio mediaquery*/
+
+@media (min-width:320px) and (max-width:576px){
+    .box1-contacto{
+        width: 95%;
+    }
+
+    .fila1-main-contacto{
+        padding: 0px;
+    }
+}
+
+@media (min-width:576px) {
+    .img-1-contacto {
+        margin: 30px 0px 40px 0px;
+    }
+}
+
+/*fin mediaquery*/
+
+/*main fin*/
