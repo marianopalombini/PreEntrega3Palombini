@@ -538,7 +538,7 @@ header {
   border-top: 1px solid #fff;
 }
 
-.sombra-titulo, .main-comida-box1 h2 {
+.sombra-titulo, .main-comida-box1 h1 {
   text-shadow: 4px 0px 4px #1d1d1d;
 }
 
@@ -557,7 +557,7 @@ header {
   font-weight: 300;
   padding-top: 10px;
 }
-.main-comida-box1 h2 {
+.main-comida-box1 h1 {
   font-size: 30px;
   font-weight: 500;
   font-family: "ZCOOL XiaoWei", sans-serif;
@@ -1176,7 +1176,7 @@ header {
   border-radius: 10px;
   margin-bottom: 30px;
 }
-.main-nosotros-box1 h2 {
+.main-nosotros-box1 h1 {
   font-size: 30px;
   font-weight: 500;
   color: #fff;
@@ -1605,7 +1605,7 @@ header {
   border-radius: 10px;
   margin-bottom: 30px;
 }
-.main-mentalidad-box1 h2 {
+.main-mentalidad-box1 h1 {
   font-size: 30px;
   font-weight: 500;
   color: #fff;
@@ -2179,7 +2179,7 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.box1-contacto h3 {
+.box1-contacto h2 {
   font-family: "ZCOOL XiaoWei", sans-serif;
   font-size: 25px;
   font-weight: 500;
